@@ -1,0 +1,148 @@
+/* ***Default Setting *** */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+/* *** General *** */
+body {
+  background-color: #e7eff0;
+  color: #333;
+}
+
+.container-section {
+  max-width: 550px;
+  margin: 150px auto;
+  text-align: center;
+  padding: 2em 1.5em;
+  background: transparent;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.container-section:hover {
+  box-shadow: 1px 3px 6px #d3cfcf;
+}
+
+.grocery-form .alert {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin: 1em;
+}
+
+.success {
+  background-color: #b3f8e1;
+  color: #222;
+}
+
+.danger {
+  background-color: rgb(250, 171, 171);
+  color: #222;
+}
+
+.grocery-form h3 {
+  margin: 1em 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.grocery-item-add {
+  visibility: hidden;
+}
+
+.form-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0.5em;
+}
+.form-container .input-value {
+  font-size: 1rem;
+  text-transform: capitalize;
+  width: 80%;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background: transparent;
+  background-color: rgb(221, 232, 252);
+  border: none;
+  padding: 0.4em 1rem;
+}
+
+.form-container .submit-Btn {
+  width: 20%;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: rgb(185, 207, 248);
+  border: none;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.form-container .submit-Btn:hover {
+  background-color: rgb(105, 157, 253);
+  color: white;
+  transition: all 0.3s linear;
+}
+
+.list-container {
+  display: flex;
+  padding: 0.3em 1rem;
+  margin: 2em 0.5em;
+  letter-spacing: 2px;
+  align-content: center;
+  justify-content: space-between;
+  border-radius: 6px;
+}
+
+.grocery-container {
+  margin-top: 2rem;
+  visibility: hidden;
+}
+
+.show-container {
+  visibility: visible;
+}
+
+.list-container:hover {
+  background-color: rgb(232, 239, 253);
+}
+
+.edit-btn,
+.delete-btn {
+  border: none;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  background-color: transparent;
+}
+.edit-btn {
+  color: rgb(114, 243, 114);
+}
+.edit-btn:hover {
+  color: rgb(16, 177, 16);
+}
+
+.delete-btn {
+  color: rgb(250, 106, 106);
+}
+.delete-btn:hover {
+  color: rgb(243, 61, 61);
+}
+
+.clear-btn {
+  color: rgb(253, 85, 85);
+  letter-spacing: 2.5px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  font-size: 1rem;
+}
